@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--  tea house icon  -->
+    <link rel="icon" href="https://media.istockphoto.com/id/1491134124/vector/hand-drawn-vintage-tea-house.jpg?s=612x612&w=0&k=20&c=wluKffFYPjjSDrkjsjraAXl2muJ37LbTK1RqhzbHwR8=">
+    <title>Tea House</title>
+    <!--google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Tailwin cdn -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <main class="max-w-screen-xl mx-auto px-16 lg:28 ">
+        <section>
+            <!-- banner container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 pt-10 mb-20">
+            <!-- banner text -->
+        <div>
+            <h1 class="text-7xl font-extrabold">It's good<br>tea time at The <br> Tea House</h1>
+            <p class="text-base text-[#777777] mt-5 mb-5 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class="text-base font-bold text-[#ffffff] bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg py-3 px-4">Explore More <i class="fa-solid fa-arrow-right transform pl-1 -rotate-45 "></i></button>
+        </div class="mt-10">
+<!-- banner image -->
+        <div class="relative">
+            <img src="./images/banner.png" alt="#">
+<!-- banner star section -->
+            <div class="flex items-center gap-1 bg-white rounded-lg px-2 py-3 sm:-ml-30 sm:-mt-40  md:ml-25 md:-mt-25 lg:py-5 lg:ml-30 lg:-mt-25 absolute drop-shadow-lg ">
+                <i class="fa-solid fa-star text-yellow-500"></i>
+<!-- card text -->
+                 <div class="ml-2">
+                    <h3 class="text-3xl font-extrabold">5.00</h3>
+                    <p class="text-base text-[#777777]">Trust Pilot Ratings</p>
+                 </div>
+            </div>
+        </div>
+        </div>
+<!-- banner section end -->
+        </section>
+        <section class="py-8 lg:24">
+<!-- Featured Products stard -->
+            <div class="w-1/2 text-center mx-auto mb-10 lg:15">
+                <h1 class="text-3xl	font-extrabold mb-5">Our Featured Products</h1>
+                <p class="text-base text-[#777777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+<!-- products card container -->
+            <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] py-7 px-8 drop-shadow-lg rounded-lg justify-items-center text-center">
+                    <img src="./images/tea-1.png" alt="">
+                    <h2 class="text-xl font-extrabold mt-5 mb-3">Milk Tea</h2>
+                    <p class="text-base text-[#777777]">Creamer could be replaced by fresh milk</p>
+                </div>
+<!-- products card 2 -->
+                    <div class="bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] py-7 px-8 drop-shadow-lg rounded-lg justify-items-center    text-center">
+                          <img src="./images/tea-2.png" alt="">
+                           <h2 class="text-xl font-extrabold mt-5 mb-3">Black Tea</h2>
+                            <p class="text-base text-[#777777]">Creamer could be replaced by fresh milk</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] py-7 px-8 drop-shadow-lg rounded-lg justify-items-center    text-center">
+                          <img src="./images/tea-3.png" alt="">
+                           <h2 class="text-xl font-extrabold mt-5 mb-3">Lemon Tea</h2>
+                            <p class="text-base text-[#777777]">Creamer could be replaced by fresh milk</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] py-7 px-8 drop-shadow-lg rounded-lg justify-items-center    text-center">
+                          <img src="./images/tea-4.png" alt="">
+                           <h2 class="text-xl font-extrabold mt-5 mb-3">Green Tea</h2>
+                            <p class="text-base text-[#777777]">Creamer could be replaced by fresh milk</p>
+                    </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
